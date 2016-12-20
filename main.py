@@ -309,7 +309,7 @@ def main():
         print('**************************************')
         print('Choose one of the following: ')
         print('1 - Pre Processing and Extracting Raw Data')
-        print('0 - Im done')
+        print('0 - Exit')
         print('**************************************')
 
         try:
