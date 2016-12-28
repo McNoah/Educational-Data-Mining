@@ -67,15 +67,15 @@ def readRawFile(fileName, db, cursor):
     reader = pd.read_table(filePath, chunksize=CHUNKSIZE, sep=",", encoding='utf-8')
 
     result = getItemsCount(db, cursor)
-    print ("There are %d rows of data" % (result))
+    print ("There are {0:d} rows of data".format((result)))
 
     print("Start import data to MySQL server...")
     for df in reader:
         # process each data frame
         result += process_frame(df, db, cursor)
-        print("FUWebLog: Imported %d records" % result)
+        print("FUWebLog: Imported {0:d} records".format(result))
 
-    print ("There are %d rows of data" % (result))
+    print ("There are {0:d} rows of data".format((result)))
 
 def process_frame(df, db, cursor):
     # process data frame
