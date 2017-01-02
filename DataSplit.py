@@ -7,11 +7,10 @@ FILE_TRAIN = 'train.csv'
 FILE_VALID = 'validation.csv'
 FILE_TESTS = 'test.csv'
 
-# Set to true if you want to copy first line from main
-# file into each split (like CSV header)
+# Set to true if you want to copy first line from main file into each split (like CSV header)
 IS_CSV = True
 
-# Make sure it adds to 100, no error checking below
+# Make sure the total percent equals to 100
 PERCENT_TRAIN = 60
 PERCENT_VALID = 20
 PERCENT_TESTS = 20
