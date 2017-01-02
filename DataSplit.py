@@ -25,7 +25,7 @@ if IS_CSV:
     train_file.write(data[0])
     valid_file.write(data[0])
     tests_file.write(data[0])
-    data = data[1:len(data)]
+    data = data[1:]
 
 num_of_data = len(data)
 num_train = int((PERCENT_TRAIN/100.0)*num_of_data)
