@@ -1,34 +1,3 @@
-# import csv
-
-# alist, blist = [], []
-
-# # with open("/Users/MCNOAH/Desktop/AccessLog_Tool-develop/MappedIP.csv", "r") as fileA:
-# #     reader = csv.reader(fileA, delimiter='')
-# #     for row in reader:
-# #         # append all words in cell
-# #         for word in row:
-# #             alist.append(word)
-
-# with open("/Users/MCNOAH/Desktop/AccessLog_Tool-develop/IP.csv", "r") as fileA:
-#     reader = csv.reader(fileA, delimiter=',')
-#     for row in reader:
-#         for row_str in row:
-#             alist += row_str.strip().split()
-
-# with open("/Users/MCNOAH/Desktop/AccessLog_Tool-develop/Mapping.csv", "r") as fileB:
-#     reader = csv.reader(fileB, delimiter=';')
-#     for row in reader:
-#         blist += row
-
-# firstSet = set(alist)
-# secondSet = set(blist)
-
-# matches = firstSet.intersection(secondSet)
-# print (matches)
-
-# # print firstSet.intersection(secondSet)
-
-
 import csv
 # from collections import defaultdict
 # reader1 = csv.reader(open('/Users/MCNOAH/Desktop/AccessLog_Tool-develop/MappedIP.csv', 'r'))
