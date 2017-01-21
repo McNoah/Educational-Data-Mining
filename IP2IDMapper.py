@@ -23,7 +23,6 @@ with open('IP.csv', 'r') as IPFile, open('Mapping2.csv', 'r') as IPMappedFile:
 		# 	print Ipx[0] + "--------"
 		pass
 
-
 # if (row1[0] == row2[0]):
 # 	print ("equal")
 # else:
